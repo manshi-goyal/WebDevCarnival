@@ -1,0 +1,81 @@
+*{          /* resetting the margin and padding */
+    margin:0px;
+    padding:0px;
+    background-color: rgb(231, 232, 235);
+}
+
+.box{       /* outer box */
+    margin: 50px 25px;
+    padding: 5px;
+    width: 231px;
+    display:inline-block;
+    border-radius: 8px;
+    background-color: white;
+    position: relative;
+}
+
+img{        /* for the top image */
+    margin:0px;
+    padding:0px;
+    border-radius: 8px;
+}
+
+ul{         /* the background-color wont be displayed if put in the Li tag, and designs wont work if put in ul tag.  */
+    background-color: white;
+}
+
+li{         /* for the captions list */
+    list-style-type: none;
+    padding: 2px 4px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.238);
+    display:inline-block;
+    margin-right: 10px;
+    font-size: 9px;
+    
+}
+
+p.body{          /* for the main text */
+    font-size: 12px;
+    margin: 10px;
+    height: 106px;
+    overflow: hidden scroll;
+    background-color: white;
+}
+
+.title{     /* for the TITLE over the below the captions */
+    font-size: 25px;
+    display:block;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: white;
+}
+
+a.read-more{    /* for Read More text at the bottom */
+    margin-top: 5px;
+    margin-bottom: 8px;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 7px 10px;
+    box-sizing: border-box;
+    background-color: rgb(173, 195, 246);
+    color: rgb(25, 65, 225);
+    font-size: 12px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    left:70px;
+}
+
+.sansation-light {
+    font-family: "Sansation", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.sansation-bold {
+    font-family: "Sansation", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
